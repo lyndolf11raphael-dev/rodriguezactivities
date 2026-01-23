@@ -1,0 +1,89 @@
+.header {
+    color: rgb(177, 24, 13);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.txt {
+    text-align: center;
+    color: rgb(206, 25, 40);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 50px;
+}
+
+.txt:hover {
+    color: blue;
+    background-color: aqua;
+}
+
+.title {
+    text-align: center;
+    font-size: 75px;
+    font-weight: bolder;
+    margin-top: 25px;
+}
+
+.subtit {
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.subtit:hover {
+    color: greenyellow;
+}
+
+.border {
+    border: 5px solid blue;
+    padding: 15px;
+}
+
+.bckgrnd {
+    background-color: rgb(165, 42, 134);
+}
+
+a:link {
+    color:blueviolet;
+}
+a:visited {
+    color:rgb(0, 255, 136);
+}
+a:hover {
+    color:brown;
+}
+a:active { 
+    color:rgb(128, 165, 42);
+}
+
+.error {
+    color: red;
+    background: pink;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-align: center;
+    visibility: hidden;
+}
+
+.success {
+    color: green;
+    background: yellowgreen;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-align: center;
+    visibility: hidden;
+}
+.center {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.logIn {
+    background: grey;
+    padding: 25px;
+    width: 380px;
+    border-radius: 15px;
+    text-align: center;
+
+}
