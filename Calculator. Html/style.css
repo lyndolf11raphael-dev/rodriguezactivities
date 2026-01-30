@@ -1,0 +1,47 @@
+.calculator {
+        width: 180px;
+        height: fit-content;
+        margin: 50px;
+        padding: 10px;
+        border: 2px solid rgb(255, 0, 0);
+        border-radius: 0px;
+        background-color: rgb(255, 145, 0);
+    }
+
+    #valueBox {
+        width: 65%;
+        height: 50px;
+        font-size: 24px;
+        text-align: right;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        background: rgb(255, 230, 0);
+        border: rgb(0, 0, 0);
+    }
+    #operatorBox {
+        width: 30%;
+        height: 50px;
+        font-size: 24px;
+        text-align: right;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        background: rgba(0, 81, 255, 0.562);
+        border: rgb(0, 162, 255);
+    }
+
+    .btn{
+        height: 40px;
+        width: 40px;
+        border-radius: 0px;
+        background: rgb(192, 29, 151);
+
+    }
+    .button{
+        height: 40px;
+        width: 85px;
+        border-radius: 10px;
+        background: pink;
+
+    }
